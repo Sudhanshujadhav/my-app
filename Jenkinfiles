@@ -1,0 +1,10 @@
+node {
+      stage ('SCM Chekout') {
+         git 'https://github.com/Sudhanshujadhav/my-app/'
+         }
+         
+      stage ('Compile-package') {
+        sh 'mvn package'
+        }
+        
+ }
