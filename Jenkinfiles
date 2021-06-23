@@ -3,7 +3,7 @@ node {
       git 'https://github.com/Sudhanshujadhav/my-app/'
     }
     stage ('Compile-Package'){
-      sh 'mvn package'
+      sh '/home/sudhanshuj/maven/bin/mvn package'
     }
         
 }
