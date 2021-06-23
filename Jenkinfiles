@@ -1,8 +1,8 @@
 node {
-    stage ('SCM Chekout'){
+    stage ('SCM Checkout'){
       git 'https://github.com/Sudhanshujadhav/my-app/'
     }
-    stage ('Compile-package'){
+    stage ('Compile-Package'){
       sh 'mvn package'
     }
         
